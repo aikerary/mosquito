@@ -42,7 +42,7 @@ export function AdminDashboard() {
   const totalStock = products.reduce((acc, curr) => acc + (Number(curr.stock) || 0), 0);
 
   return (
-    <div className="flex min-h-screen bg-slate-950 text-slate-100 font-sans antialiased">
+    <div className="flex min-h-screen bg-red-100 text-slate-100 font-sans antialiased">
       {/* Navigation Sidebar */}
       <Sidebar />
 
